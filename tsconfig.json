@@ -101,7 +101,7 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "app.ts"
+    "src/app.ts"
   ],
   "exclude": [
     ".yarn"

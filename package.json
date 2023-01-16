@@ -5,6 +5,8 @@
     "build": "rm -rf dist && tsc",
     "prestart": "yarn build",
     "start": "node dist/app.js",
+    "image:build": "docker build -t hello_world .",
+    "image:start": "docker run -d -p 3000:3000 hello_world",
     "watch": "tsc -w"
   },
   "devDependencies": {
